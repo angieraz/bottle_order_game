@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+        <div class="parent">
+            <div class="header shadow-glow">
+                <div class="title">Guess the Bottle Order</div>
+            </div>
+            
+            <div class="div3 shadow-glow" id="left">
+                <div class="slot shadow-glow"></div>
+                <div class="slot shadow-glow"></div>
+                <div class="slot shadow-glow"></div>
+                <div class="slot shadow-glow"></div>
+                <div class="slot shadow-glow"></div>
+            </div>
+
+            <div class="div4 shadow-glow" id="right">
+                <div class="list" id="water" draggable="true">
+                    <img src="img/water.png" alt="water" draggable="false">
+                </div>
+                <div class="list" id="maple" draggable="true">
+                    <img src="img/maple-syrup.png" alt="maple-syrup" draggable="false">
+                </div>
+                <div class="list" id="olive" draggable="true">
+                    <img src="img/olive-oil.png" alt="olive-oil" draggable="false">
+                </div>
+                <div class="list" id="milk" draggable="true">
+                    <img src="img/milk.png" alt="milk" draggable="false">
+                </div>
+                <div class="list" id="bottle" draggable="true">
+                    <img src="img/water-bottle.png" alt="water-bottle" draggable="false">
+                </div>
+            </div>
+
+            <div class="footer shadow-glow">
+                <div class="check-wrapper">
+                    <button class="check-btn">Check the Order</button>
+                    <div id="res"></div>
+                </div>
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
